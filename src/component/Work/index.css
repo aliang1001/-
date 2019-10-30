@@ -1,0 +1,117 @@
+.main_header{
+    height : 660px;
+    background-image: url("http://www.powerlaunch.cn/wp-content/uploads/2017/09/launch.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_header img{
+    animation: prologue 1s;
+    animation-fill-mode:forwards
+}
+@keyframes prologue {
+  0%{
+      transform: translate(0, -70px);
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+      transform: translate(0,0);
+  }
+}
+
+.main_section{
+    height: 950px;
+    background-attachment:fixed;
+    background-image: url("http://www.powerlaunch.cn/wp-content/uploads/2019/09/4aad4aeb7ff46081234463feff3dbc2e_1_3_photo.jpg");
+    background-size: cover;
+}
+.main_img_left{
+    height : 440px;
+    width: 315px;
+    margin-top: 220px;
+    margin-left: 275px;
+}
+.main_p{
+    height: 528px;
+    width: 500px;
+    float: right;
+    margin-top: 220px;
+    margin-right: 165px;
+}
+.main_p_img_right{
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+}
+.main_nth1{
+    padding:45px 0;
+    height: 360px;
+    background-attachment:fixed;
+    background-image: linear-gradient(110deg,#203b66 53%,#203b66 53%,#1f3861 53%,#1f3861);
+    background-color: hsl(216, 45%, 40%);
+    background-size: cover;
+}
+.main_nth1 img{
+    height : 355px;
+    width: 315px;
+    margin-left: 275px;
+}
+.main_right{
+    width : 528px;
+    height: 272px;
+    float: right;
+    margin-right: 170px;
+}
+.main_right p{
+    line-height: 2;
+    color: #ffffff;
+}
+
+.main_nth2{
+    padding:15% 0px ;
+    box-sizing: border-box;
+    height : 772px;
+    background-image: url("http://www.powerlaunch.cn/wp-content/uploads/2019/09/微信图片_20190920174756.jpg"); 
+    background-color: rgb(255, 225, 0);
+    background-attachment:fixed;
+    background-size: cover;
+}
+.main_nth2 img{
+    border: 1px #d9d9d9 solid;
+    box-shadow: #535353 0px 0px 20px;
+    height: 316px;
+    width: 316px;
+    margin-left: 275px;
+}
+.main_nth2 .right{
+    width : 528px;
+    height: 272px;
+    float: right;
+    margin-right: 170px;
+}
+.main_nth2 .right p{
+    line-height: 2;
+}
+
+.main_nth3{
+    height:807px;
+    background-image: url("http://www.powerlaunch.cn/wp-content/uploads/2017/09/爱尔兰.jpg"); 
+    background-attachment:fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_footer{
+    height: 158px;
+    background: rgba(0,0,0,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_footer p{
+    color:#ffffff
+}
